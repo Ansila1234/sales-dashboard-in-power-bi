@@ -1,42 +1,68 @@
-# Google Playstore Dashboard
+# Sales Analysis Dashboard
+
+This repository contains a Power BI project that provides detailed insights into sales performance across various regions, products, and customer segments. The dashboard allows for an interactive exploration of key metrics such as sales quantity, revenue, average delivery days, and returns.
 
 ## Overview
-This repository contains a Power BI project that analyzes sales data to uncover critical business insights. The dashboard visualizes key metrics such as total sales, product profitability, customer segmentation, and regional performance.
+The dashboard is designed to help businesses analyze their sales data effectively. It offers a visual representation of important sales metrics, enabling users to identify trends, track performance, and make data-driven decisions.
 
-### Dataset
-+ Total Records: 178,000 sales transactions
-+ Total Sales: $12.64 million
-+ Average Delivery Time: 4 days
+### Key Metrics
++ Total Quantity Sold: 178K units
++ Total Sales Revenue: $12.64M
++ Average Delivery Days: 4 days
++ Year Range: 2012 - 2015
++ Returned Orders: 1,079
 
-### Key Features
-### 1. Sales Performance
-+ Total Sales: $12.64 million
-+ Yearly Breakdown: Visualized sales trends over multiple years (2012-2015)
-+ Returned Orders: Monitored and reported on 1,079 returned orders.
-### 2. Profitability Analysis
-+ Top 6 Profit Products: The most profitable product generated up to $25,000 in profits.
-+ Top 6 Loss Products: The least profitable product incurred a loss of $8,900.
-### 3. Regional Sales Breakdown
-+ Asia Pacific: Contributed 31.98% of total sales, amounting to $4.04 million.
-+ Other Markets: Europe, USCA, and LATAM also analyzed for sales distribution.
-### 4. Customer Segmentation
-+ Segments Analyzed: Consumer, Corporate, and Home Office
-+ Largest Segment: Consumer segment, contributing 51.48% of total sales, equating to $6.51 million.
-### 5. Top Customers
-+ Top 10 Customers: Ranked based on sales, with the top customer generating $8,700 in revenue.
+### Visualizations
+### 1. Sales by Region:
 
-### Visualization Types
-+ Bar Charts: Used for sales by region, segment, and customer rankings.
-+ Line Charts: Employed to visualize sales trends over time.
-+ KPIs: Highlighted key metrics such as total sales, average delivery time, and returned orders.
++ Asia Pacific: $4.04M (31.98%)
++ Europe: $3.29M (26%)
++ USCA: $2.36M (18.7%)
++ LATAM: $2.16M (17.12%)
 
-### Tools Used
-Power BI Desktop: For data modeling, transformation, and visualization.
+### 2. Sales by Segment:
++ Consumer: $6.51M (51.48%)
++ Corporate: $3.82M (30.25%)
++ Home Office: $2.31M (18.2%)
 
-### How to Use
-Clone the repository to your local machine.
-Open the .pbix file in Power BI Desktop.
-Explore the interactive dashboard to analyze various aspects of the sales data.
+### 3. Top 6 Profit Products:
++ Canon imagePROGRAF: 25K
++ Cisco SmartNet: 17K
++ Motorola SB6121: 17K
++ Hoover Stove: 12K
++ Sauder Classic: 11K
++ Harbour Creek: 10K
+
+### 4. Top 6 Loss Products:
++ Bevis Compact: -8.9K
++ Bevis Round: -4.6K
++ Cubify Cube 3D: -4.4K
++ Motorola SB6121: -3.8K
++ Lexmark MX410: -3.6K
++ Cubify Cube 3D: -3.5K
+
+### 5.Top 10 Customers:
++ Tamara Chand: 8.7K
++ Raym Buch: 8.5K
++ Sanjit Chand: 8.2K
++ Hunter Lopez: 7.8K
++ Bill Eplett: 7.4K
++ Harry Marie: 7.0K
++ Susan Pistek: 6.5K
++ Mike Gock: 6.5K
++ Adrian Barton: 6.4K
++ Tom Ashburn: 6.3K
+
+### Getting Started
+#### To view and interact with the Power BI dashboard, follow these steps:
++ Open the .pbix file in Power BI Desktop.
++ Explore the dashboard and interact with the visualizations to gain insights into the sales data.
+
+### Prerequisites
+Power BI Desktop (latest version)
+
+### Contributing
+If you would like to contribute to this project, feel free to open an issue or submit a pull request. Contributions are welcome!
 
 ### Contact
 For any queries, feel free to reach out to ansilas9189@gmail.com.
